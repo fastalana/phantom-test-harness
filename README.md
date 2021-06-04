@@ -19,8 +19,10 @@ Activity is logged to a file and to the console by default. The log file locatio
 
 # How to use
 1. Clone this repo
-2. Add the location of this project to your PYTHONPATH
+2. Add the location of this project to your Python path.
+
 ```export PYTHONPATH=$PYTHONPATH:/your/new/location/phantom-test-harness```
+
 3. Make sure you run your python code that tests your app from somewhere that you can import your app module from. It's recommended to test from withing your app code directory.
 4. Check `/examples` for examples on how to use this.
 
